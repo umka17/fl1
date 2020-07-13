@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>pop-up</title>
+</head>
+
+<body>
+  <div class="pop-up">
+    <p class="pop-up__title pop-up__container">Добавить новое событие</p>
+    <div class="pop-up__container pop-up__top ">
+      <div class="pop-up__user-container">
+        <img src="img_avatar.png" alt="Аватар" class="pop-up__avatar">
+        <div class="pop-up__name-container">
+          <p class="pop-up__user-name">Зайцев Антон</p>
+          <small class="pop-up__user-status">Ученик</small>
+        </div>
+      </div>
+      <p class="pop-up__section-title">Название</p>
+      <input type="text" name="" id="" placeholder="Введите название" class="pop-up__title-input">
+    </div>
+    <div class="pop-up__date date">
+      <div class="pop-up__container">
+        <div class="date__start">
+          <p class="pop-up__section-title">Дата начала</p>
+          <div class="date__start-time">
+            <img src="calendar2.svg" alt="иконка календаря" class="calendar-icon">
+            <input type="date" id="start" name="trip-start" value="2020-02-18" class="start-data-day">
+            <div class="date__time-container">
+              <img src="clock.svg" alt="иконка часов" class="clock-icon">
+              <select class="start-data-hours">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+              </select>
+              <select class="start-data-hours" class="start-data-minute">
+                <option value="00">00</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+                <option value="25">25</option>
+                <option value="30">30</option>
+                <option value="35">35</option>
+                <option value="40">40</option>
+                <option value="45">45</option>
+                <option value="50">50</option>
+                <option value="55">55</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="date__end">
+          <p class="pop-up__section-title">Дата окончания</p>
+          <div class="date__end-time">
+            <img src="calendar2.svg" alt="иконка календаря" class="calendar-icon">
+            <input type="date" id="start" value="2020-02-18" class="end-data-day">
+            <div class="date__time-container">
+              <img src="clock.svg" alt="иконка часов" class="clock-icon">
+              <select id="cars" class="end-data-hours">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+              </select>
+              <select id="" class="end-data-hours" class="start-data-minute">
+                <option value="00">00</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+                <option value="25">25</option>
+                <option value="30">30</option>
+                <option value="35">35</option>
+                <option value="40">40</option>
+                <option value="45">45</option>
+                <option value="50">50</option>
+                <option value="55">55</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pop-up__container pop-up__bottom">
+      <p class="pop-up__section-title">Описание</p>
+      <textarea class="pop-up-des" name="" id="" rows="8" placeholder="Введите описание"></textarea>
+      <div class="pop-up__button-container">
+        <button type="submit" class="pop-up__submit pop-up-btn">Добавить событие</button>
+        <button type="submit" class="pop-up__cancel pop-up-btn">Отменить</button>
+      </div>
+    </div>
+
+</body>
+
+</html>
